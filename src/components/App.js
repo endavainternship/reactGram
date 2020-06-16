@@ -1,7 +1,13 @@
 import React from 'react';
+import Feed from './index';
+import "antd/dist/antd.css";
 
 function App() {
-    return <h1>Instagram!</h1>;
+    return     (
+        <>
+            <Feed />
+        </>
+    )
 }
 
 export default App;
