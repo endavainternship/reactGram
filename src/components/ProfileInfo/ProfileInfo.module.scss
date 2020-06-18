@@ -1,0 +1,25 @@
+.profile__img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.profile__img__container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+// @media (min-width: 576px) {
+//     .d__sm__none {
+//         display: none !important;
+//     }
+//      <Col md={24} sm={10} className={[s.d__sm__none, s.d__md__block]}>
+//                         <h2>nike</h2>
+//                     </Col>
+// }
+
+// @media (min-width: 768px) {
+//     .d__md__block {
+//         display: block !important;
+//     }
+// }

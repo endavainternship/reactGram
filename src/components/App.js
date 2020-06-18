@@ -1,7 +1,15 @@
 import React from 'react';
+import Feed from './index';
+import 'antd/dist/antd.css';
+import { ProfileInfo } from './ProfileInfo';
 
 function App() {
-    return <h1>Instagram!</h1>;
+    return (
+        <>
+            <ProfileInfo />
+            <Feed />
+        </>
+    );
 }
 
 export default App;
