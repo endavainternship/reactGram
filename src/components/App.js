@@ -1,11 +1,13 @@
 import React from 'react';
-import Feed from './index';
+import Feed from './Feed/Feed';
 import "antd/dist/antd.css";
+import Footer from './Footer/Footer';
 
-function App() {
+const App = () => {
     return     (
         <>
             <Feed />
+            <Footer />
         </>
     )
 }
